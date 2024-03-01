@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_TheOjasSingh_go_pipeline_sample_1709302576582-push-trigger-input-set
+  identifier: Build_TheOjasSingh_go_pipeline_sample_1709302576582pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_TheOjasSingh_go_pipeline_sample_1709302576582
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
