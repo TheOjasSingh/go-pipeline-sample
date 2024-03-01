@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_TheOjasSingh_go_pipeline_sample_1709302576582-pr-trigger-input-set
+  identifier: Build_TheOjasSingh_go_pipeline_sample_1709302576582prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_TheOjasSingh_go_pipeline_sample_1709302576582
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
